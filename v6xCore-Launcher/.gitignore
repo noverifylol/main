@@ -1,0 +1,8 @@
+artifacts/
+build/
+__pycache__/
+*.exe
+*.log
+*.tmp
+diagnostics.txt
+ui-smoke-report.json

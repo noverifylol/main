@@ -1,0 +1,29 @@
+{
+  "source": "https://github.com/sezzyaep/CS2-OFFSETS",
+  "provider": "sezzyaep/CS2-OFFSETS",
+  "commit": "fa24ed457f096f519d2cdbb95db55f4b7bc5c6df",
+  "source_commit_date": "2026-10-09T00:00:57Z",
+  "retrieved_on": "2026-10-14T00:23:49.933583+00:00",
+  "build": 14190,
+  "extraction": "Only required numeric offsets/schema facts are retained; original file hashes are recorded separately.",
+  "raw_files": {
+    "offsets.json": {
+      "sha256": "9ff026b28d2c7abc3499669df939bf231d8d06e869055b875c16721498530c76",
+      "bytes": 1209
+    },
+    "client_dll.json": {
+      "sha256": "d939af43501a45bcf0a0e102f78f4cbf696629543dfb9077af8e45c5548d5861",
+      "bytes": 445045
+    }
+  },
+  "files": {
+    "offsets.json": {
+      "sha256": "be4db9cdb688ed35ae60352bcc3e42a4a0202bbb65123da9a2526e477bcfd857",
+      "bytes": 259
+    },
+    "client_dll.json": {
+      "sha256": "f6f7fd9aa0d50af82c92c4d6aa1c9944f184068c884d66e09865e4d5555e25ff",
+      "bytes": 2124
+    }
+  }
+}

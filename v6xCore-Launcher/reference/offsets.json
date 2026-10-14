@@ -1,0 +1,11 @@
+{
+  "client.dll": {
+    "dwEntityList": 40965528,
+    "dwLocalPlayerPawn": 39175112,
+    "dwLocalPlayerController": 39008424,
+    "dwViewMatrix": 39197904,
+    "dwViewAngles": 39267048,
+    "dwSensitivity": 39163592,
+    "dwSensitivity_sensitivity": 88
+  }
+}

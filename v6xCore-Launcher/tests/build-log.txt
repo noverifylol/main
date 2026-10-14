@@ -1,0 +1,33 @@
+Validated offsets from sezzyaep/CS2-OFFSETS, commit fa24ed457f096f519d2cdbb95db55f4b7bc5c6df
+Snapshot date: 2026-10-09T00:00:57Z; build: 14190
+Reload in v6xCore with F9. File validation is not a live-CS2 test.
+PASS: projection, angle wrapping, aim geometry, input signs and frame-rate-independent smoothing
+PASS: profile names, trimming, traversal rejection and Windows reserved names
+PASS: scalar/typed schemas, required fields, bounds, UTF-8 BOM, UTF-16, duplicates and metadata validation
+PASS: FFA display/target classification, opt-in teammate targeting, frame deadlines and no catch-up burst
+PASS: signed-response verification, production-key rejection, tampering, replay window, owner/code/type checks, expiry and credential-safe errors
+test_expected_keys_and_bounds (test_offsets.OffsetTests.test_expected_keys_and_bounds) ... ok
+test_generated_ini_matches_snapshot (test_offsets.OffsetTests.test_generated_ini_matches_snapshot) ... ok
+test_invalid_global_is_rejected (test_offsets.OffsetTests.test_invalid_global_is_rejected) ... ok
+test_invalid_schema_is_rejected (test_offsets.OffsetTests.test_invalid_schema_is_rejected) ... ok
+test_missing_required_field (test_offsets.OffsetTests.test_missing_required_field) ... ok
+test_snapshot_hashes (test_offsets.OffsetTests.test_snapshot_hashes) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK
+In file included from /usr/lib/gcc/x86_64-w64-mingw32/14-posix/include/c++/numeric:62,
+                 from src/../vendor/nlohmann/json.hpp:6154,
+                 from src/offset_data.hpp:2,
+                 from src/updater.hpp:3,
+                 from src/app.hpp:6,
+                 from src/ui.hpp:2,
+                 from src/launcher.hpp:2,
+                 from src/main.cpp:1:
+/usr/lib/gcc/x86_64-w64-mingw32/14-posix/include/c++/bits/stl_numeric.h: In function '_Tp std::accumulate(_InputIterator, _InputIterator, _Tp)':
+/usr/lib/gcc/x86_64-w64-mingw32/14-posix/include/c++/bits/stl_numeric.h:140: note: '-Wmisleading-indentation' is disabled from this point onwards, since column-tracking was disabled due to the size of the code/headers
+  140 |       for (; __first != __last; ++__first)
+/usr/lib/gcc/x86_64-w64-mingw32/14-posix/include/c++/bits/stl_numeric.h:140: note: adding '-flarge-source-files' will allow for more column-tracking support, at the expense of compilation time and memory
+
+WINDOWS_X64_BUILD_OK

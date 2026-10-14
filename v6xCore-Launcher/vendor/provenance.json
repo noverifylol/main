@@ -1,0 +1,19 @@
+{
+  "imgui": {
+    "repository": "https://github.com/ocornut/imgui",
+    "tag": "v1.91.9b",
+    "commit": "f5befd2d29e66809cd1110a152e375a7f1981f06",
+    "license": "MIT"
+  },
+  "fonts": {
+    "family": "Poppins",
+    "source": "https://github.com/google/fonts/tree/main/ofl/poppins",
+    "license": "SIL OFL 1.1"
+  },
+  "design_reference": {
+    "repository": "https://github.com/noverifylol/sweetie",
+    "reviewed_commit": "e981b9fe252ca5bc4e770f4140023f2b30b492f3",
+    "custom_code_redistributed": false,
+    "wallpaper_included": false
+  }
+}

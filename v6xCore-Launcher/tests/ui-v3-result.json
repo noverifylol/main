@@ -1,0 +1,24 @@
+{
+  "environment": "Wine 10 / Xvfb / --ui-test",
+  "live_cs2_tested": false,
+  "checks": [
+    "English launcher and module views rendered",
+    "Empty-key validation in normal mode",
+    "Library search and all game covers",
+    "Future game details are explicitly Coming soon",
+    "FFA updates display/targeting configuration",
+    "Teammate targeting is opt-in in team mode",
+    "Sampling and rendering targets persist up to 360 Hz",
+    "Configs save/load/delete round trip",
+    "Capture-privacy request persisted; Wine returned Windows error 8, so capture exclusion was NOT confirmed",
+    "UI-preview mode remained unauthorized and process access disabled",
+    "Popup keyboard navigation no longer triggers End-to-exit"
+  ],
+  "final_build_checks": [
+    "Compact indexed logo decoded and visibly advanced under Wine",
+    "Final library, FFA, Configs and System views rendered",
+    "Final standalone bootstrap passed",
+    "Final public KeyAuth initialization passed; no customer license or application secret sent"
+  ],
+  "wine_observation": "One launch emitted a Wine page-fault/debugger message before V6X_UI_READY; the app subsequently rendered, remained interactive, and closed with exit code 0. Native Windows stability is not established by this."
+}

@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-14T02:55:31.877392+02:00",
+  "selected": "sezzyaep/CS2-OFFSETS",
+  "selected_build": 14190,
+  "sdk_site": "https://www.cs2-sdk.com/",
+  "sdk_displayed_build": 14184,
+  "sdk_displayed_date": "2026-09-25",
+  "repositories": {
+    "sezzyaep/CS2-OFFSETS": {
+      "commit": "fa24ed457f096f519d2cdbb95db55f4b7bc5c6df",
+      "date": "2026-10-09T00:00:57Z"
+    },
+    "scros22/cs2-universal-offsets": {
+      "commit": "6dcbfae24a2d2801b50f613b908854e47ff49a58",
+      "date": "2026-09-25T17:33:09Z"
+    }
+  },
+  "live_cs2_compatibility_tested": false
+}

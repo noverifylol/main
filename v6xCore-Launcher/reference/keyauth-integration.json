@@ -1,0 +1,24 @@
+{
+  "api": "https://keyauth.win/api/1.3/",
+  "public_configuration": {
+    "name": "Counter Strike 2",
+    "ownerid": "2goY8wtVEd",
+    "version": "1.0"
+  },
+  "application_secret_embedded": false,
+  "signature_algorithm": "Ed25519 over timestamp + raw response body",
+  "published_verification_key": "5586b4bc69c7a4b487e4563a4cd96afd39140f919bd31cea7d1c6a1e8439422b",
+  "timestamp_window_seconds": 120,
+  "paid_check_path": "/api/1.3/?check_paid=1",
+  "client_session_check_seconds": 60,
+  "maximum_local_verification_age_seconds": 90,
+  "key_storage": "Windows DPAPI CurrentUser with game/application/owner entropy",
+  "identity": "App-scoped SHA-256 of current Windows user SID",
+  "public_initialization_verified": true,
+  "valid_customer_license_login_tested": false,
+  "sdk_implementation_redistributed": false,
+  "sources": [
+    "https://github.com/KeyAuth/keyauth-cpp-library",
+    "https://github.com/KeyAuth/KeyAuth-Python-Example"
+  ]
+}

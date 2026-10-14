@@ -1,0 +1,46 @@
+#include <windows.h>
+101 ICON "v6xCore.ico"
+102 RCDATA "logo-atlas.png"
+201 RCDATA "Poppins-Regular.ttf"
+202 RCDATA "Poppins-Medium.ttf"
+301 RCDATA "offsets.ini"
+302 RCDATA "settings.ini"
+303 RCDATA "configs/Balanced.ini"
+304 RCDATA "configs/Minimal.ini"
+305 RCDATA "configs/Ice.ini"
+401 RCDATA "THIRD_PARTY_LICENSES.txt"
+501 RCDATA "covers/cs2.jpg"
+502 RCDATA "covers/fortnite.jpg"
+503 RCDATA "covers/retrac.jpg"
+504 RCDATA "covers/valorant.jpg"
+505 RCDATA "covers/roblox.jpg"
+506 RCDATA "covers/siege.jpg"
+507 RCDATA "covers/warzone.jpg"
+508 RCDATA "covers/pubg.jpg"
+
+1 RT_MANIFEST "app.manifest"
+1 VERSIONINFO
+FILEVERSION 3,0,0,0
+PRODUCTVERSION 3,0,0,0
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0x0L
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+ BLOCK "StringFileInfo"
+ BEGIN
+  BLOCK "040904b0"
+  BEGIN
+   VALUE "FileDescription", "v6xCore Launcher - User Mode\0"
+   VALUE "FileVersion", "3.0.0\0"
+   VALUE "InternalName", "v6xCore\0"
+   VALUE "OriginalFilename", "v6xCore Launcher.exe\0"
+   VALUE "ProductName", "v6xCore Launcher\0"
+   VALUE "ProductVersion", "3.0.0\0"
+  END
+ END
+ BLOCK "VarFileInfo"
+ BEGIN
+  VALUE "Translation", 0x0409, 1200
+ END
+END

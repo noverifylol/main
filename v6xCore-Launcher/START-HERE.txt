@@ -1,0 +1,18 @@
+v6xCore Launcher 3.0 / Mono Edition
+
+1. Close any older v6xCore instance.
+2. Put v6xCore Launcher.exe in its own folder, or extract the full ZIP.
+3. Enter a customer license for Counter Strike 2. Do not enter the application secret.
+4. After sign-in, select Launch on the CS2 card.
+5. Use windowed/borderless CS2. Aim starts off and requires a held key.
+6. FFA mode and Target teammates are under Aim control > Player relations.
+7. Saved settings are now called Configs.
+
+No key yet? Run preview-ui.cmd, then choose Preview library.
+Preview mode cannot access CS2 or emit aim input.
+
+Capture privacy is a best-effort Windows request, not a universal streamproof guarantee.
+The other seven game cards are Coming soon, with artwork but no executable module.
+
+Read README.md and BUILD_REPORT.md for setup, tests, and limitations.
+No driver, injection, silent bullet redirection, forced-hit feature, or concealed payload.

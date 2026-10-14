@@ -1,0 +1,98 @@
+{
+  "client.dll": {
+    "classes": {
+      "C_BaseEntity": {
+        "fields": {
+          "m_iHealth": {
+            "offset": 844,
+            "type": "int32"
+          },
+          "m_iTeamNum": {
+            "offset": 999,
+            "type": "uint8"
+          },
+          "m_lifeState": {
+            "offset": 852,
+            "type": "uint8"
+          },
+          "m_pGameSceneNode": {
+            "offset": 816,
+            "type": "CGameSceneNode*"
+          }
+        }
+      },
+      "C_BasePlayerPawn": {
+        "fields": {
+          "m_vOldOrigin": {
+            "offset": 5284,
+            "type": "Vector"
+          },
+          "m_flFOVSensitivityAdjust": {
+            "offset": 5276,
+            "type": "float32"
+          }
+        }
+      },
+      "CGameSceneNode": {
+        "fields": {
+          "m_vecAbsOrigin": {
+            "offset": 200,
+            "type": "VectorWS"
+          },
+          "m_bDormant": {
+            "offset": 259,
+            "type": "bool"
+          }
+        }
+      },
+      "C_BaseModelEntity": {
+        "fields": {
+          "m_vecViewOffset": {
+            "offset": 3936,
+            "type": "CNetworkViewOffsetVector"
+          }
+        }
+      },
+      "CCSPlayerController": {
+        "fields": {
+          "m_hPlayerPawn": {
+            "offset": 2348,
+            "type": "CHandle<C_CSPlayerPawn>"
+          }
+        }
+      },
+      "CBasePlayerController": {
+        "fields": {
+          "m_iszPlayerName": {
+            "offset": 1788,
+            "type": "char[128]"
+          }
+        }
+      },
+      "C_CSPlayerPawn": {
+        "fields": {
+          "m_entitySpottedState": {
+            "offset": 7816,
+            "type": "EntitySpottedState_t"
+          },
+          "m_bGunGameImmunity": {
+            "offset": 13576,
+            "type": "bool"
+          },
+          "m_bIsScoped": {
+            "offset": 7840,
+            "type": "bool"
+          }
+        }
+      },
+      "EntitySpottedState_t": {
+        "fields": {
+          "m_bSpotted": {
+            "offset": 8,
+            "type": "bool"
+          }
+        }
+      }
+    }
+  }
+}

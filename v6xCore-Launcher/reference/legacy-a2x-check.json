@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-14T01:56:29.559867+02:00",
+  "source": "https://github.com/a2x/cs2-dumper",
+  "results": {
+    "main": {
+      "commit": "4116de000e085d62bbd42334c67b35bda37bda4f",
+      "date": "2026-10-06T09:12:36Z",
+      "message": "Merge pull request #691 from Enoouo/main\n\nGame update (14189)"
+    },
+    "offsets.json": {
+      "commit": "103c3aa89ac594a303dc1c933dc7bd36fa3eee2f",
+      "date": "2026-10-06T07:00:53Z",
+      "message": "Game update (14189)"
+    },
+    "client_dll.json": {
+      "commit": "bb5ef83e67f7d5504b46d139e09c7f0839c74619",
+      "date": "2026-10-01T06:25:14Z",
+      "message": "Game update (14188)"
+    }
+  }
+}

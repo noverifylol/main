@@ -1,0 +1,9 @@
+{
+  "test": "Public init only; no app secret or license sent. No live license login tested.",
+  "signature_valid": true,
+  "clock_skew_seconds": 0.37,
+  "success": true,
+  "code": 68,
+  "owner_matches": true,
+  "session_present": true
+}
